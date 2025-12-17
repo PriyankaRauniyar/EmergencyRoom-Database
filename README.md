@@ -35,8 +35,17 @@ and medication administration.
 - `EmergencyRoom.sql`  
   Complete MySQL implementation including tables, constraints, and relationships.
 
+## Entity Relationship (ER) Diagram
+
+The following ER diagram illustrates the relational structure,
+entities, and relationships used in the database design.
+
+![ER Diagram](docs/ER_Diagram.png)
+
 ## How to Run
 ```sql
 CREATE DATABASE Emergency_room;
 USE Emergency_room;
 SOURCE EmergencyRoom.sql;
+
+
